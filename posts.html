@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Writings — Lizzie Makanja</title>
+<meta name="description" content="Poems, life stories, heartbreak poems, and blogs by Lizzie Makanja.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@500;600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header id="site-header"></header>
+<main class="wrap" style="padding-top:50px">
+<h1 style="font-size:2.4rem">Writings</h1>
+<div class="filters" id="filters">
+<button class="chip" data-f="all">All</button>
+<button class="chip" data-f="love">Love Poems</button>
+<button class="chip" data-f="life">Life Stories</button>
+<button class="chip" data-f="heartbreak">Heartbreak Poems</button>
+<button class="chip" data-f="blog">Blogs</button></div>
+<div class="grid" id="post-list"></div>
+<form id="new-post" style="display:none;margin-top:50px">
+<h2>New writing</h2>
+<input name="title" placeholder="Title" required>
+<select name="cat"><option value="love">Love Poem</option><option value="life">Life Story</option><option value="heartbreak">Heartbreak Poem</option><option value="blog">Blog</option></select>
+<textarea name="body" placeholder="Write here…" required></textarea>
+<button class="btn primary" type="submit">Publish</button></form>
+</main>
+<footer id="site-footer"></footer><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script><script src="config.js"></script><script src="script.js"></script></body></html>

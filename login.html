@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign in — Lizzie Makanja</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@500;600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header id="site-header">
+
+</header>
+<main class="auth">
+    <h1 id="auth-title">Sign in</h1>
+<form id="login-form">
+<input type="email" id="email" placeholder="Email" required>
+<input type="password" id="password" placeholder="Password" minlength="6" required>
+<button class="btn primary" type="submit" id="auth-submit">Sign in</button>
+<span class="sep">or</span>
+<button class="btn google" type="button" id="google-btn">Continue with Google</button>
+</form>
+<button class="linkbtn" id="toggle-mode">No account? Sign up</button>
+<div id="auth-msg"></div></main>
+<footer id="site-footer"></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script><script src="config.js"></script><script src="script.js"></script></body></html>
